@@ -1,5 +1,10 @@
+<<<<<<< HEAD:dealkorner/src/app/components/contenu/contenu.component.css
 .form-group{
     background-color: #E5E5E5;
+=======
+
+  .form-group{
+>>>>>>> 18b28cf9ee135ae55ec31dbf1902fbaa50f1c73b:dealkorner/src/app/components/listedeal/listedeal.component.css
     height: 200px;
     padding-left: 8px;
     padding-right: 8px;
@@ -39,9 +44,13 @@ p.vote{
     margin-right: 0px;
     margin-top: 0px;
     float: right;
+<<<<<<< HEAD:dealkorner/src/app/components/contenu/contenu.component.css
 }
 
 img{
     float: left;
     margin-bottom: 100px;
 }
+=======
+} 
+>>>>>>> 18b28cf9ee135ae55ec31dbf1902fbaa50f1c73b:dealkorner/src/app/components/listedeal/listedeal.component.css
