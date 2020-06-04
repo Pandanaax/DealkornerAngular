@@ -1,7 +1,10 @@
 .form-group{
+    background-color: #E5E5E5;
     height: 200px;
-    margin-left: 250px;
-    margin-right: 250px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 18%;
+    margin-right: 18%;
     margin-top: 100px;
     text-align:center;
     border-color: blue;
@@ -9,13 +12,36 @@
 
 .titre{
     font-size: 25px;
+    height: 35px;
+    margin-bottom: 0px;
 }
 
 .description{
+    font-size: 15px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.vote{
+    float: right;
+    padding-bottom: 0px;
+    background-color: #FFFFFF;
+}
+
+p.vote{
     text-align: center;
 }
 
 .btn-primary{
-    margin-top: 30px;
+    border: none;
+    background-color: #35B729;
+    margin-right: 0px;
+    margin-top: 0px;
     float: right;
+}
+
+img{
+    float: left;
+    margin-bottom: 100px;
 }
