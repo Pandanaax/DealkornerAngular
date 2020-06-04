@@ -1,3 +1,13 @@
 header {
     background-color: #191919;
+    height: 100px;
+}
+.searchBar{
+    width: 30%;
+}
+.logo img{
+    max-width: 300px;
+}
+.header{
+    height: 100px;  
 }
