@@ -18,7 +18,6 @@ import { ContenuComponent } from './components/contenu/contenu.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    
   ],
   providers: [],
   bootstrap: [AppComponent]
