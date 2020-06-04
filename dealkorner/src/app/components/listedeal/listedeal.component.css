@@ -5,9 +5,8 @@
     padding-right: 8px;
     margin-left: 18%;
     margin-right: 18%;
-    margin-top: 100px;
+    margin-top: 10px;
     text-align:center;
-    border-color: blue;
 }
 
 .titre{
@@ -43,5 +42,15 @@ p.vote{
 
 img{
     float: left;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+}
+
+.vote{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 1px;
+    border-radius: 5px;
+    color: #35B729;
 }
