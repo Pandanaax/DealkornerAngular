@@ -1,3 +1,5 @@
+/*****************  HEADER *****************/
+
 header {
     background-color: #191919;
     height: 100px;
@@ -26,3 +28,111 @@ header {
     color:whitesmoke;
 }
 
+/*****************  SECTION FILTER *****************/
+
+.sectionFilter{
+    max-height: 400px;;
+    background: linear-gradient(#191919, #616161);
+}
+.sectionFilter h3{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.1em;
+}
+.filtre{
+    width: 140px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 10px;
+    border: 1px solid black;
+    opacity: 0.9;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    
+}
+.filtre:hover{
+    opacity: 1;
+}
+.filtre span{
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.filtre span a{
+    text-decoration: none;
+    padding: 21px 31px;
+    color:whitesmoke;
+
+}
+.filtre1{
+    background: url('https://www.dealabs.com/assets/img/components/groups-promo/electronic_1x_6d9f1.jpg');
+}
+.filtre2{
+    background: url('https://www.dealabs.com/assets/img/components/groups-promo/home_1x_ff42f.jpg');
+}
+.filtre3{
+    background: url('https://www.dealabs.com/assets/img/components/groups-promo/food_1x_61076.jpg');
+}
+.filtre4{
+    background: url('https://www.dealabs.com/assets/img/components/groups-promo/fashion_1x_fde64.jpg');
+}
+.filtre5{
+    background: url('https://www.dealabs.com/assets/img/components/groups-promo/garden_1x_81aa1.jpg');
+}
+.glow-on-hover {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg,black,#35b729);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 7s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
