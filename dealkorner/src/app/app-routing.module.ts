@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ContenuComponent } from './components/contenu/contenu.component';
+import { ListedealComponent } from './components/listedeal/listedeal.component';
+
 
 
 const routes: Routes = [
-  {path:"contenu", component:ContenuComponent},
+  {path:"", component: ListedealComponent},
 ];
 
 @NgModule({

@@ -1,4 +1,5 @@
-.form-group{
+
+  .form-group{
     height: 200px;
     margin-left: 250px;
     margin-right: 250px;
@@ -18,4 +19,4 @@
 .btn-primary{
     margin-top: 30px;
     float: right;
-}
+} 

@@ -4,7 +4,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ContenuComponent } from './components/contenu/contenu.component';
+import { ListedealComponent } from './components/listedeal/listedeal.component';
+
 
 
 @NgModule({
@@ -12,8 +13,10 @@ import { ContenuComponent } from './components/contenu/contenu.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ContenuComponent,
-
+    ListedealComponent
+    
+    
+    
   ],
   imports: [
     BrowserModule,
