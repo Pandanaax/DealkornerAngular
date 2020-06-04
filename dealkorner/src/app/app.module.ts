@@ -13,11 +13,7 @@ import { ListedealComponent } from './components/listedeal/listedeal.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ListedealComponent
-    
-    
-    
-  ],
+    ListedealComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
