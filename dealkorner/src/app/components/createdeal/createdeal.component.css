@@ -1,6 +1,5 @@
 .form-group{
     background-color: #E5E5E5;
-    height: 200px;
     padding-left: 8px;
     padding-right: 8px;
     margin-left: 18%;
@@ -22,35 +21,13 @@
 
 }
 
-.vote{
-    float: right;
-    padding-bottom: 00px;
-    background-color: #FFFFFF;
-}
-
-p.vote{
-    text-align: center;
-}
 
 .btn-primary{
     border: none;
     background-color: #35B729;
-    margin-right: 0px;
-    margin-top: 0px;
-    float: right;
+    display: block;
+    margin : auto;
+    float: auto;
+    margin-top: 15px;
 }
 
-img{
-    float: left;
-    margin-bottom: 30px;
-}
-
-.vote{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 1px;
-    border-radius: 5px;
-    color: #35B729;
-}
