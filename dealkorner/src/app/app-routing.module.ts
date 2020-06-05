@@ -7,7 +7,7 @@ import { CreatedealComponent } from './components/createdeal/createdeal.componen
 
 const routes: Routes = [
   {path: '', component: ListedealComponent},
-  {path: 'createdeal', component:CreatedealComponent}
+  {path: 'createdeal', component: CreatedealComponent}
 ];
 
 @NgModule({
