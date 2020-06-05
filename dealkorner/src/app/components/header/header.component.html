@@ -43,10 +43,16 @@
       <div class="modal-content modalBackground">
         <div class="container">
         <h1 class="form-signin-heading  mt-3 text-success">Connexion</h1>
-            <form class="form-signin mt-0">
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="form-signin mt-0">
                 
-                <input type="text" class="form-control" placeholder="Email address" required="" autofocus="">
-                <input type="password" class="form-control" placeholder="Password" required="">
+                <input formControlName="email" type="text" class="form-control" placeholder="Email address" required="" autofocus="">
+                <div *ngIf="submitted && f.theme.errors" class="invalid-feedback">
+                    <div *ngIf="f.theme.errors.required">Theme manquant</div>
+                </div> 
+                <input formControlName="password" type="password" class="form-control" placeholder="Password" required="">
+                <div *ngIf="submitted && f.theme.errors" class="invalid-feedback">
+                    <div *ngIf="f.theme.errors.required">Theme manquant</div>
+                </div> 
                 <button class="btn btn-lg btnPost btn-block" type="submit">
                     Se connecter
                 </button>
