@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { DealsService } from 'src/app/deals.service';
+import { Deal } from 'src/models/deal';
 
 @Component({
   selector: 'app-listedeal',
@@ -6,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./listedeal.component.css']
 })
 export class ListedealComponent implements OnInit {
+      allDeals : Deal[];
+    constructor(private router : Router, private dealService: DealsService) { }
 
-  constructor() { }
-
-  ngOnInit(): void {
+    ngOnInit() {
+      this.getAllDeals();
+    }
+    getAllDeals(): void {
+      this.dealService.getAllDeals().subscribe((result) => this.allDeals = result);
   }
-
 }

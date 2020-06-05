@@ -8,6 +8,7 @@ import { ListedealComponent } from './components/listedeal/listedeal.component';
 import { CreatedealComponent } from './components/createdeal/createdeal.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { ViewdealComponent } from './components/viewdeal/viewdeal.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -24,7 +25,9 @@ import { ViewdealComponent } from './components/viewdeal/viewdeal.component';
       BrowserModule,
       AppRoutingModule,
       ReactiveFormsModule,
-      FormsModule ],
+      FormsModule,
+      HttpClientModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
