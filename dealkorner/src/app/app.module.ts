@@ -20,10 +20,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     CreatedealComponent,
     ViewdealComponent],
     
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    ReactiveFormsModule
+    imports: [
+      BrowserModule,
+      AppRoutingModule,
+      ReactiveFormsModule,
     
   ],
   providers: [],
