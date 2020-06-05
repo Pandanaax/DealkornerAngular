@@ -1,6 +1,5 @@
 .form-group{
     background-color: #E5E5E5;
-    height: 200px;
     padding-left: 8px;
     padding-right: 8px;
     margin-left: 18%;
@@ -22,22 +21,14 @@
 
 }
 
-.vote{
-    float: right;
-    padding-bottom: 00px;
-    background-color: #FFFFFF;
-}
-
-p.vote{
-    text-align: center;
-}
 
 .btn-primary{
     border: none;
     background-color: #35B729;
-    margin-right: 0px;
-    margin-top: 0px;
+    display: block;
+    margin : auto;
     float: right;
+    
 }
 
 img{
