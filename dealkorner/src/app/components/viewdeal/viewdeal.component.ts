@@ -11,5 +11,4 @@ export class ViewdealComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
