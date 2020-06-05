@@ -1,24 +1,39 @@
           <div>
-          <div class="form-group" >
-            <form class="container p-5">
+          <div class="form-group">
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="container p-5" >
                 <p class="titre">Poster votre deal </p>
               <label for="exampleFormControlInput1"></label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Titre">
-
+              <input formControlName="title" class="form-control" id="exampleFormControlInput1" placeholder="Titre">
+              <div *ngIf="submitted && f.title.errors" class="invalid-feedback">
+              <div *ngIf="f.title.errors.required">Titre manquant</div>
+            </div>
               <label for="exampleFormControlSelect1"></label>
-              <select class="form-control" id="exampleFormControlSelect1" >
+              <select formControlName="theme" class="form-control" id="exampleFormControlSelect1" >
                 <option>High-tech</option>
                 <option>Maison & habitat </option> 
                 <option>Épicerie & courses </option>
                 <option>Mode & accessoires</option>
                 <option>Jardin & bricolage</option>
               </select>
-
+               <div *ngIf="submitted && f.theme.errors" class="invalid-feedback">
+                <div *ngIf="f.theme.errors.required">Theme manquant</div>
+            </div> 
+              <label formControlName="image" for="exampleFormControlFile1">Image</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
               <label for="exampleFormControlInput1"></label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Lien du deal">
+              <div *ngIf="submitted && f.theme.errors" class="invalid-feedback">
+                <div *ngIf="f.theme.errors.required">Theme manquant</div>
+            </div> 
+              <input formControlName="liendeal" class="form-control" id="exampleFormControlInput1" placeholder="Lien du deal">
               <label for="exampleFormControlTextarea1"></label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Description"></textarea>
-              <button type="submit" class="btn btn-primary mx-auto d-block">Envoyer</button>
+              <div *ngIf="submitted && f.theme.errors" class="invalid-feedback">
+                <div *ngIf="f.theme.errors.required">Theme manquant</div>
+            </div> 
+              <textarea formControlName="description" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Description"></textarea>
+              <div *ngIf="submitted && f.theme.errors" class="invalid-feedback">
+                <div *ngIf="f.theme.errors.required">Theme manquant</div>
+            </div> 
+                <button class="btn btn-primary">Envoyer</button>
             </form>
             </div>
         </div>

@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ListedealComponent } from './components/listedeal/listedeal.component';
 import { CreatedealComponent } from './components/createdeal/createdeal.component';
 import { ViewdealComponent } from './viewdeal/viewdeal.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -18,9 +19,12 @@ import { ViewdealComponent } from './viewdeal/viewdeal.component';
     ListedealComponent,
     CreatedealComponent,
     ViewdealComponent],
+    
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
