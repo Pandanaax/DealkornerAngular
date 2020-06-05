@@ -1,9 +1,22 @@
 .contenu{
-    background-color: #FFFFFF;
+    background-color: #E5E5E5;
 }
 
 .titre{
 
+}
+
+img{
+    float:left;
+    margin-bottom: 30px;
+}
+
+.theme{
+   
+}
+
+.description{
+    
 }
 
 .moins{
@@ -12,11 +25,17 @@
     padding: 4px;
 }
 
+.vote{
+    border:1px solid;
+    padding: 3px;
+}
+
 .plus{
     border: none;
     color: green;
     padding: 4px;
 }
+
 
 .lien_deal{
     border-left: none;
@@ -25,15 +44,4 @@
     background-color: #35B729;
     border: 1px solid black;
     padding: 7px;
-}
-
-img{
-    float:left;
-    margin-bottom: 30px;
-}
-
-
-.vote{
-    border:1px solid;
-    padding: 3px;
 }
