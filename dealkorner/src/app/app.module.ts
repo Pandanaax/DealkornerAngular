@@ -18,14 +18,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     ListedealComponent,
     CreatedealComponent,
-    ViewdealComponent],
-    
+    ViewdealComponent ],
     imports: [
       BrowserModule,
       AppRoutingModule,
-      ReactiveFormsModule,
-    
-  ],
+      ReactiveFormsModule, ],
   providers: [],
   bootstrap: [AppComponent]
 })
