@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ListedealComponent } from './components/listedeal/listedeal.component';
 import { CreatedealComponent } from './components/createdeal/createdeal.component';
+import { ViewdealComponent } from './viewdeal/viewdeal.component';
 
 
 
@@ -15,7 +16,8 @@ import { CreatedealComponent } from './components/createdeal/createdeal.componen
     HeaderComponent,
     FooterComponent,
     ListedealComponent,
-    CreatedealComponent],
+    CreatedealComponent,
+    ViewdealComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
